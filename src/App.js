@@ -1,10 +1,10 @@
 // App.js
 import React, { useState } from 'react';
 import './App.css';
-import LoginPage from './LoginPage';
-import LikeDislikePage from './LikeDislikePage'; 
-import ProfileCreationPage from './ProfileCreationPage';
-import LoadingPage from './LoadingPage'; // Import LoadingPage component
+import LoginPage from './Components/Login/LoginPage';
+import LikeDislikePage from './Components/Like Dislike/LikeDislikePage'; 
+import ProfileCreationPage from './Components/Profile Creation/ProfileCreationPage';
+import LoadingPage from './Components/Loading/LoadingPage'; // Import LoadingPage component
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

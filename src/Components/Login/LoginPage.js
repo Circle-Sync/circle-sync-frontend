@@ -1,7 +1,7 @@
 // LoginPage.js
 import React, {useState, useEffect} from 'react';
 import './LoginPage.css';
-import app from './firebaseConfig'; // Adjust the import path as necessary
+import app from '../../firebaseConfig'; // Adjust the import path as necessary
 import { GoogleAuthProvider, signInWithPopup, getAuth } from 'firebase/auth';
 
 const auth = getAuth(app);

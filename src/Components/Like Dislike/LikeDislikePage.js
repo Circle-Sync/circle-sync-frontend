@@ -1,7 +1,7 @@
 // LikeDislikePage.js
 import React from 'react';
 import './LikeDislikePage.css';
-import profileImage from './profile-image.jpg'; // Import the image file
+import profileImage from '../../Images/profile-image.jpg'; // Import the image file
 
 const LikeDislikePage = () => {
   return (
