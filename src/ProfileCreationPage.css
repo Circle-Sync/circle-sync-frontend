@@ -1,0 +1,111 @@
+.profile-creation-page-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 80vh; /* Set a fixed height for the container */
+}
+
+.profile-creation-page {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto; /* Add margin to center the page vertically and horizontally */
+    padding: 40px; /* Increase padding for better spacing */
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #f8f9fa; /* Set background color */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  }
+  
+  .profile-creation-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333; /* Set heading color */
+  }
+  
+  .profile-creation-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-creation-page label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555; /* Set label color */
+  }
+  
+  .profile-creation-page input[type="text"],
+  .profile-creation-page input[type="email"],
+  .profile-creation-page input[type="number"],
+  .profile-creation-page textarea {
+    width: 100%;
+    padding: 12px; /* Increase padding for better input field size */
+    margin: 10px 0 20px; /* Adjust margin for spacing */
+    border: 1px solid #ddd; /* Update border color */
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .profile-creation-page textarea {
+    resize: vertical;
+  }
+
+  input[type="checkbox"] {
+    /* Hide the checkboxes */
+    display: none;
+  }
+  
+  input[type="checkbox"] + label {
+    /* Checkbox container styles */
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"] + label::before {
+    /* Checkbox styles */
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  input[type="checkbox"]:checked + label::before {
+    /* Checked checkbox styles */
+    background-color: #4caf50;
+  }
+
+  .tag-options label {
+    font-size: 16px;
+    color: #555;
+    margin-right: 10px;
+    padding: 15px 10px; /* Add padding above and below the label */
+  }
+  
+  .profile-creation-page button {
+    font-size: 0.9rem; 
+    padding: 12px 24px; /* Adjust padding for button size */
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  }
+  
+  .profile-creation-page button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+  }
+
+  

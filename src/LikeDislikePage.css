@@ -1,0 +1,53 @@
+/* LikeDislikePage.css */
+
+.like-dislike-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.action-button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.like {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.dislike {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.action-button:hover {
+  transform: translateY(-3px);
+}
