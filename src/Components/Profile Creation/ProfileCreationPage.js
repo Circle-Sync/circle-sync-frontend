@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './ProfileCreationPage.css';
-import LoadingPage from './LoadingPage';
+import LoadingPage from '../Loading/LoadingPage';
 
 const ProfileCreationPage = ({ onCreateProfile }) => {
   const [formData, setFormData] = useState({
